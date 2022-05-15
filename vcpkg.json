@@ -1,0 +1,21 @@
+{
+  "name": "opengv",
+  "version-string": "1.0",
+  "dependencies": [
+    "tbb",
+    "fmt",
+    "glog",
+    {
+      "name": "abseil",
+      "features" : ["cxx17"]
+    },
+    "boost",
+    "eigen3",
+    "sophus",
+    "opencv3",
+    "xtensor",
+    "gtest",
+    "benchmark"
+  ],
+  "overrides": []
+}
